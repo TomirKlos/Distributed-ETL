@@ -1,0 +1,8 @@
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/TomirKlos/distributed-ETL
+          search-paths:
+            - "djk-config-properties/{application}/{profile}"
