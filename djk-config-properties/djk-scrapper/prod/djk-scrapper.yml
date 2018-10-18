@@ -1,0 +1,10 @@
+spring:
+  kafka:
+    consumer:
+      group-id: djk_scrapper_consumer
+    bootstrap-servers: localhost:9092
+    topic:
+      pageToScrap: PAGE_TO_SCRAP_TOPIC
+security:
+  basic:
+    enabled: false
