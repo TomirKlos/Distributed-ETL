@@ -1,0 +1,10 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: djk-entry-data-producer
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        service-id: djk-config-server
