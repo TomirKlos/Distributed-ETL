@@ -1,19 +1,12 @@
-package pl.krakow.uek.djkentrydataproducer.entity;
+package pl.krakow.uek.djkscrapper.entity.dto;
 
 import java.net.URL;
 
-public class Website {
-
+public class WebsiteDto {
     private String url;
     private boolean isMobile;
 
-    public Website(String url, boolean isMobile) {
-        this.url = url;
-        this.isMobile = isMobile;
-    }
-
-    public Website() {
-    }
+    public WebsiteDto() { }
 
     public String getUrl() {
         return url;
@@ -28,6 +21,6 @@ public class Website {
     }
 
     public void setMobile(boolean mobile) {
-        this.isMobile = mobile;
+        isMobile = mobile;
     }
 }
