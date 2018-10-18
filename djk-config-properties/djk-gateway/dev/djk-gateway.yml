@@ -1,0 +1,6 @@
+zuul:
+  routes:
+    djk-entry-data-producer: /api/producer/**
+security:
+  basic:
+    enabled: false
