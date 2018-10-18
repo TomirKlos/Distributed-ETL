@@ -1,0 +1,8 @@
+spring:
+  kafka:
+    bootstrap-servers: localhost:9092
+    topic:
+      pageToScrap: PAGE_TO_SCRAP_TOPIC
+security:
+  basic:
+    enabled: false
